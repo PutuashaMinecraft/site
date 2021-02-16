@@ -1,0 +1,97 @@
+p{
+	font-size: 30px;
+	color: white;
+}
+
+a{
+	font-size: 30px;
+	color: white;
+}
+
+.roz{
+	color: white;
+	font-size: 30px;
+}
+
+table{
+	width: 900px;
+	height: 200px;
+}
+
+option{
+	color: blue;
+	font-size: 30px;
+}
+
+form{
+	color: blue;
+	font-size: 30px;
+}
+
+i{
+	color: aquamarine;
+	transition: all 0.8s ease-in-out;
+}
+i:hover{
+	color: turquoise;
+	font-size: 10em;
+	transform: rotate(1500deg);
+}
+
+input:focus { 
+  background: aquamarine; /* Цвет фона */ 
+  border: 1px solid #29B0D9; /* Параметры */ 
+}
+
+.block-animation {
+width: 250px;
+padding: 20px;
+text-align: center;
+background-color: turquoise;
+color: white;
+border-radius: 10px;
+font-size: 30px;
+transition: 1s linear;
+}
+
+.block-animation:hover {
+background-color: mediumaquamarine;
+color: black;
+border-radius: 50px;
+}
+
+table {
+border-spacing: 0;
+width: 400px;
+border: 1px solid black;
+}
+
+td, th {
+padding: 5px;
+border: 1px solid black;
+}
+
+tr:hover {
+background: mediumaquamarine;/* Змінюємо колір фону рядка таблиці */
+}
+
+body {	margin: 40px; }
+.circle {
+background:mediumaquamarine;
+border-radius: 100%;
+width: 100px;
+height: 100px;
+animation: pulsing 2s infinite;
+}
+@keyframes pulsing {
+0% {
+	transform: scale(0.5, 0.5);
+}
+50% {
+	transform: scale(1.0, 1.0);
+}
+100% {
+	transform: scale(0.5, 0.5);
+}
+}
+
